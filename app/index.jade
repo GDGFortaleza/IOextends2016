@@ -1,0 +1,106 @@
+extends layouts/_default
+block content
+
+	//- Header
+	header
+		.container
+			.row
+				.col-lg-12
+					.intro-text
+						h2 Stream live <br> wherever you are
+						span From your own bed or Horseshoe Bend.
+						button.btn.btn-default Quero Participar
+
+	section#about
+		.container
+			.row
+				.col-lg-6
+					h2 O que é o GDG
+					br
+					p  Grupo Google Developers (GDG) - é um grupo aberto e voluntário da comunidade geek que criar projetos empolgantes e quer partilhar com uma paixão as experiências sobre tecnologias do Google
+
+				.col-lg-6
+					h2 Google I/O extends
+					br
+					p O Google I/O é um evento que acontece anualmente em São Francisco com palestras inspiradoras e aprendizado mão na massa, em que os participantes têm a chance de ficar sabendo, em primeira mão, dos mais novos produtos e tecnologias desenvolvidos pela Google. Está em sua 8° conferência para desenvolvedores, e pela segunda vez, o Google I/O Extended acontecerá em Fortaleza.
+
+	section#registration
+		.container
+			.row
+				.col-lg-12
+					h2 Inscriçoes
+					br
+			.row
+				.col-lg-12
+					h4 1kg de alimento
+					p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					button.btn.btn-default Quero Participar
+					
+
+	section#schedule
+		.container
+			.row
+				.col-lg-12
+					h2 Schedule
+					br
+		each item in schedule
+			li item.name
+		
+		
+	section#localization
+		#maplayer.maplayer
+		.content-wrapper
+			.col-lg-3.col-md-4.col-sm-6.col-md-offset-1.text-left.card.loc-bx
+				.pull-left
+					h2 Localização
+					ul.list-unstyled
+						li
+							h4 #{info.localization.addres}
+							strong= info.date
+						li
+							time 8:00
+							|	-
+							time 22:00
+
+
+	section#organization
+		.container
+			.row
+				.col-lg-12
+					h2 Organização
+					br
+					
+			.row
+				.col-sm-4
+					.card
+						a(href='#{organization.site}', target='_blank')
+						img.img-responsive.friend-logo(src='#{organization.logo}', alt='Google Developers')
+				.col-sm-4
+					.card
+						a(href='#{organization.site}', target='_blank')
+						img.img-responsive.friend-logo(src='#{organization.logo}', alt='Google Developers')
+						
+				.col-sm-4
+					.card
+						a(href='#{organization.site}', target='_blank')
+						img.img-responsive.friend-logo(src='#{organization.logo}', alt='Google Developers')
+
+
+	section#sponsors
+		.container
+			.row
+				.col-lg-12
+					h2 Patrocinadores
+					br
+					
+			.row
+			each sponsor in sponsors
+				.col-sm-4
+					.card
+						a(href='#{sponsor.site}', target='_blank')
+						img.img-responsive.friend-logo(src='#{sponsor.logo}', alt='Google Developers')
+			each sponsor in sponsors
+				.col-sm-4
+					.card
+						a(href='#{sponsor.site}', target='_blank')
+						img.img-responsive.friend-logo(src='#{sponsor.logo}', alt='Google Developers')

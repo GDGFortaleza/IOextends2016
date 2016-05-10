@@ -1,0 +1,47 @@
+body {
+  margin: 1em;
+  background-color: $white;
+  font-family: $font_0, $font_1, $font_2, $font_3;
+  line-height: 1.4em;
+  margin: 0;
+  padding: 0;
+  p {
+    font-weight: 100;
+  }
+}
+section {
+  padding: 100px 0;
+  background: $color_cerulean_blue;
+  h2 {
+    color: $white;
+    text-align: center;
+    font-weight: 100;
+  }
+}
+@media(max-width:767px) {
+  section {
+    padding: 75px 0;
+  }
+  section.first {
+    padding-top: 75px;
+  }
+}
+@media(min-width:768px) {
+  header {
+    .container {
+      padding-top: 200px;
+      padding-bottom: 250px;
+    }
+  }
+}
+@media(max-width:767px) {
+  header {
+    .intro-text {
+      button {
+        display: block;
+        margin: 20px auto;
+        padding: 15px 40px;
+      }
+    }
+  }
+}

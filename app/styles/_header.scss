@@ -1,0 +1,29 @@
+header {
+  margin: 0;
+  text-align: center;
+  color: $white;
+  background: $color_cerulean_blue;
+  background-image: url("/images/banner.jpg");
+  background-size: cover;
+  .container {
+    padding-top: 250px;
+    padding-bottom: 200px;
+  }
+  .intro-text {
+    float: right;
+    max-width: 500px;
+    text-align: left;
+    font-weight: 100;
+    h2 {
+      font-size: 45px;
+      font-weight: 100;
+    }
+    span {
+      font-size: 24px;
+      font-weight: lighter;
+    }
+    button {
+      margin: 20px auto;
+    }
+  }
+}
