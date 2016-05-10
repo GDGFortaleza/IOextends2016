@@ -1,0 +1,111 @@
+{
+  "info": {
+    "event_name": "Google I/O Extends 2016",
+    "date": "18 - Maio - 2016",
+    "desciption": "No finalzinho do mês de Maio você vai se sentir em São Francisco. O GDG Fortaleza irá trazer, em tempo real, todas as novidades do maior evento de tecnologia do mundo, o Google I/O",
+    "organization_email": "mailto:contato@gdgfortaleza.com",
+    "localization": {
+      "lat": "-3.736365",
+      "lng": "-38.486192",
+      "name": "Faculdade Farias Brito",
+      "addres": "Rua Castro Monte 1325 Varjota"
+    }
+  },
+  "speakers": [{
+    "name": "Vitor Alencar",
+    "avatar": "images/avatar.jpg"
+  }, {
+    "name": "Wilmerson",
+    "avatar": "images/avatar.jpg"
+  }, {
+    "name": "Elias",
+    "avatar": "images/avatar.jpg"
+  }, {
+    "name": "Elias",
+    "avatar": "images/avatar.jpg"
+  }],
+  "organization": {
+    "logo": "http://www.gdgfortaleza.org/img/GDG-fortaleza.png",
+    "name": "GDG Fortaleza",
+    "site": "http://developers.google.com"
+  },
+  "schedule": [{
+    "ends": "10:00",
+    "start": "09:00",
+    "author": "Elias de Oliveira",
+    "social": "http://www.google.com.br",
+    "title": " O poder da comunidade na sua vida/carreira",
+    "avatar": "images/avatar.jpg",
+    "desciption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  }, {
+    "start": "10:00",
+    "ends": "11:00",
+    "author": "Wilmerson",
+    "social": "http://www.google.com.br",
+    "title": "Firebase: sobreviva sem backend",
+    "avatar": "images/avatar.jpg",
+    "desciption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  }, {
+    "start": "10:00",
+    "ends": "11:00",
+    "author": "Vitor Alencar",
+    "social": "http://www.google.com.br",
+    "title": "Ecmascript 6",
+    "avatar": "images/avatar.jpg",
+    "desciption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  }, {
+    "start": "12:00",
+    "ends": "11:00",
+    "author": "",
+    "social": "http://www.google.com.br",
+    "title": "ALMOÇO",
+    "avatar": "",
+    "desciption": ""
+  }, {
+    "start": "13:00",
+    "ends": "15:00",
+    "author": "Sundar Pichai (CEO da Google)",
+    "social": "http://www.google.com.br",
+    "title": "KEYNOTE",
+    "avatar": "images/avatar.jpg",
+    "desciption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  }, {
+    "start": "15:00",
+    "ends": "15:30",
+    "author": "",
+    "social": "",
+    "title": "COFFEE-BREAK",
+    "avatar": "",
+    "desciption": ""
+  }, {
+    "start": "15:30",
+    "ends": "16:30",
+    "author": "",
+    "social": "",
+    "title": "MESA REDONDA",
+    "avatar": "",
+    "desciption": ""
+  }, {
+    "start": "16:30",
+    "ends": "17:00",
+    "author": "",
+    "social": "",
+    "title": "SORTEIOS E BRINDES",
+    "avatar": "",
+    "desciption": ""
+  }],
+  "posts": [{}],
+  "sponsors": [{
+    "logo": "http://www.gdgfortaleza.org/img/GDG-fortaleza.png",
+    "name": "GDG Fortaleza",
+    "site": "http://developers.google.com"
+  }, {
+    "logo": "http://www.gdgfortaleza.org/img/GDG-fortaleza.png",
+    "name": "GDG Fortaleza",
+    "site": "http://developers.google.com"
+  }, {
+    "logo": "http://www.gdgfortaleza.org/img/GDG-fortaleza.png",
+    "name": "GDG Fortaleza",
+    "site": "http://developers.google.com"
+  }]
+}
