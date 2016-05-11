@@ -4,6 +4,7 @@ block content
 	//- Header
 	header#page-top
 		.container
+		
 			.row
 				.col-sm-6.visible-lg
 					video#video(autoplay)
@@ -12,11 +13,9 @@ block content
 					.intro-text
 						h2 Transmissão ao vivo onde quer que você esteja
 						span acompanhe todo o evento em tempo real
-						br
-						br
-						a.btn.btn-default(href='https://docs.google.com/forms/d/1_Il6fVbcf_PrRt6EtLXB4zZ0ZnJI_QgL4AQWpoAB_I8/edit?usp=sharing_eid&ts=5732341b') Quero Participar
+						button.btn.btn-default Quero Participar
 	
-	aside#hastag
+	section#hastag
 		.container
 			.row
 				.col-xs-12
@@ -36,7 +35,7 @@ block content
 					br
 					p O Google I/O é um evento que acontece anualmente em São Francisco com palestras inspiradoras e aprendizado mão na massa, em que os participantes têm a chance de ficar sabendo, em primeira mão, dos mais novos produtos e tecnologias desenvolvidos pela Google. Está em sua 8° conferência para desenvolvedores, e pela segunda vez, o Google I/O Extended acontecerá em Fortaleza.
 
-
+	
 	section#schedule
 		.container
 			.row
@@ -75,6 +74,9 @@ block content
 							strong= info.date
 						li
 							time <strong> 8:00 - 19:00 </strong>
+						
+						li
+							a.btn.btn-default(href='https://www.google.com/maps/dir/#{info.localization.lat},#{info.localization.lng}/@#{info.localization.lat},#{info.localization.lng},18z') Como Chegar
 
 
 	section#organization

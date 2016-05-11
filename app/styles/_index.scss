@@ -147,12 +147,19 @@ header {
   text-align: center;
   border-top: 4px solid #455A64;
   background-color: #455A64;
-  button {
+  .btn-default {
     border: 1px solid $primary-color;
     color: $primary-color;
     background-color: transparent;
-    margin: -20px auto;
     display: block;
+    margin: 10px 20px;
+  }
+  @media(max-width:768px) {
+    text-align: center;
+    padding: 0 20px;
+    .btn-default {
+      margin: 15px 40px;
+    }
   }
 }
 #organization {
