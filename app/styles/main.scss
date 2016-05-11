@@ -10,6 +10,15 @@
 #about {
   color: $white;
 }
+#hastag {
+  background-color: #26C6DA;
+  padding: 20px 0;
+  img {
+    max-width: 800px;
+    margin: 0 auto;
+    display: block;
+  }
+}
 ///////////////////////
 #registration {
   display: none;
