@@ -4,11 +4,15 @@ block content
 	//- Header
 	header#page-top
 		.container
+		
 			.row
-				.col-lg-12
+				.col-sm-6.visible-lg
+					video#video(autoplay)
+						source(src='https://events.google.com/io2016/videos/hashtag-800.mp4', type='video/mp4')
+				.col-lg-6.col-sm-12
 					.intro-text
-						h2 Stream live <br> wherever you are
-						span From your own bed or Horseshoe Bend.
+						h2 Transmissão ao vivo onde quer que você esteja
+						span acompanhe todo o evento em tempo real
 						button.btn.btn-default Quero Participar
 
 	section#about

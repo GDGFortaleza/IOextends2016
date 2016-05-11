@@ -6,7 +6,7 @@ import gulpLoadPlugins from 'gulp-load-plugins';
 // Constants
 const $ = gulpLoadPlugins();
 
-gulp.task('build', ['html', 'images', 'fonts', 'extras','font-awesome'], () => {
+gulp.task('build', ['html', 'images','extras','font-awesome'], () => {
 	return gulp.src(paths.build.root)
 		.pipe($.size({
 			title: 'build',

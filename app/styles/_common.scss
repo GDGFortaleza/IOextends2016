@@ -36,6 +36,9 @@ section {
 }
 @media(max-width:767px) {
   header {
+    color: $white;
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), rgba(0,0,0,0.55) url("/images/banner.jpg") no-repeat center;
+    background-size: cover;
     .container {
       padding-top: 150px;
       padding-bottom: 0;

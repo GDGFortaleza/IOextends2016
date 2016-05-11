@@ -13,7 +13,7 @@
   },
   "speakers": [{
     "name": "Vitor Alencar",
-    "avatar": "images/avatar.jpg"
+    "avatar": "http://www.gdgfortaleza.org/io15/img/bigheads/gdg.png"
   }, {
     "name": "Wilmerson",
     "avatar": "images/avatar.jpg"
@@ -35,7 +35,7 @@
     "author": "Elias de Oliveira",
     "social": "http://www.google.com.br",
     "title": " O poder da comunidade na sua vida/carreira",
-    "avatar": "images/avatar.jpg",
+    "avatar": "http://www.gdgfortaleza.org/io15/img/bigheads/gdg.png",
     "desciption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   }, {
     "start": "10:00",
@@ -43,7 +43,7 @@
     "author": "Wilmerson",
     "social": "http://www.google.com.br",
     "title": "Firebase: sobreviva sem backend",
-    "avatar": "images/avatar.jpg",
+    "avatar": "http://www.gdgfortaleza.org/io15/img/bigheads/gdg.png",
     "desciption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   }, {
     "start": "10:00",
@@ -51,7 +51,7 @@
     "author": "Vitor Alencar",
     "social": "http://www.google.com.br",
     "title": "Ecmascript 6",
-    "avatar": "images/avatar.jpg",
+    "avatar": "http://www.gdgfortaleza.org/io15/img/bigheads/gdg.png",
     "desciption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   }, {
     "start": "12:00",
@@ -67,7 +67,7 @@
     "author": "Sundar Pichai (CEO da Google)",
     "social": "http://www.google.com.br",
     "title": "KEYNOTE",
-    "avatar": "images/avatar.jpg",
+    "avatar": "http://www.gdgfortaleza.org/io15/img/bigheads/gdg.png",
     "desciption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   }, {
     "start": "15:00",

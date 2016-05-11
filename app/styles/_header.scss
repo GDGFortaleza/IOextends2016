@@ -1,16 +1,18 @@
 header {
   min-height: 640px;
   margin: 0;
-  padding: 15px 10px;
   text-align: center;
-  color: $white;
-  background: $primary-color-dark;
-  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), rgba(0,0,0,0.55) url("/images/banner.jpg") no-repeat center;
-  background-size: cover;
+  color: $primary_color_dark;
+  background: #F7FAF9;
+
   text-rendering: optimizeLegibility;
   .container {
     padding-top: 250px;
     padding-bottom: 200px;
+  }
+  #video{
+    margin-top: -50px;
+    max-width: 320px;
   }
   .intro-text {
     float: right;
@@ -26,7 +28,8 @@ header {
       font-weight: lighter;
     }
     button {
-      margin: 20px auto;
+      display: block;
+      margin: 20px;
     }
   }
 }

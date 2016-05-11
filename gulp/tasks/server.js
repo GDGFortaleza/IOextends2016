@@ -6,7 +6,7 @@ import browserSync from 'browser-sync';
 // Constants
 const reload = browserSync.reload;
 
-gulp.task('serve', ['views', 'styles', 'fonts','images'], () => {
+gulp.task('serve', ['views', 'styles','images'], () => {
 	browserSync({
 		notify: false,
 		port: 9000,
@@ -18,7 +18,6 @@ gulp.task('serve', ['views', 'styles', 'fonts','images'], () => {
 		}
 	});
 
-	// TODO configure this paths
 	gulp.watch([
 		'app/*.html',
 		'.tmp/*.html',
