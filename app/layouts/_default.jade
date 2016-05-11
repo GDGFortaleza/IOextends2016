@@ -2,8 +2,14 @@ doctype html
 html.no-js
 	head
 		meta(charset='utf-8')
-		meta(name='keywords', content='io2016, ioextended')
 		title Google I/O Extended Fortaleza - 2016
+		meta(name='MobileOptimized', content='320')
+		meta(name='HandheldFriendly', content='True')
+		meta(name='keywords', content='io2016, ioextended')
+		meta(name='apple-mobile-web-app-capable', content='yes')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+		meta(name='viewport', content='width=device-width, initial-scale=1.0')
+		meta(name='apple-mobile-web-app-status-bar-style', content='black-translucent')
 		
 		//- FACEBOOK META TAGS
 		meta(property='og:type', content='website')
@@ -31,7 +37,7 @@ html.no-js
 		|	 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 		| <![endif]-->
 		
-		include ../includes/_header.jade
+		include ../includes/_navbar.jade
 		
 		block content
 		
@@ -40,6 +46,7 @@ html.no-js
 		// build:js scripts/vendor.js
 		// bower:js
 		script(src='/bower_components/jquery/dist/jquery.js')
+		script(src='/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js')
 		// endbower
 		// endbuild
 		

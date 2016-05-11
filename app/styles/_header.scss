@@ -1,10 +1,13 @@
 header {
+  min-height: 640px;
   margin: 0;
+  padding: 15px 10px;
   text-align: center;
   color: $white;
-  background: $color_cerulean_blue;
-  background-image: url("/images/banner.jpg");
+  background: $primary-color-dark;
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), rgba(0,0,0,0.55) url("/images/banner.jpg") no-repeat center;
   background-size: cover;
+  text-rendering: optimizeLegibility;
   .container {
     padding-top: 250px;
     padding-bottom: 200px;
