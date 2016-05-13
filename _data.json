@@ -11,21 +11,8 @@
       "addres": "Rua Castro Monte 1325 Varjota"
     }
   },
-  "speakers": [{
-    "name": "Vitor Alencar",
-    "avatar": "http://www.gdgfortaleza.org/io15/img/bigheads/gdg.png"
-  }, {
-    "name": "Wilmerson",
-    "avatar": "images/avatar.jpg"
-  }, {
-    "name": "Elias",
-    "avatar": "images/avatar.jpg"
-  }, {
-    "name": "Elias",
-    "avatar": "images/avatar.jpg"
-  }],
   "organization": {
-    "logo": "http://www.gdgfortaleza.org/img/GDG-fortaleza.png",
+    "logo": "images/banner_03.jpg",
     "name": "GDG Fortaleza",
     "site": "http://developers.google.com"
   },
@@ -33,49 +20,49 @@
     "ends": "10:00",
     "start": "09:00",
     "author": "Elias de Oliveira",
-    "social": "http://www.google.com.br",
+    "social": "https://twitter.com/faeliaso",
     "title": " O poder da comunidade na sua vida/carreira",
-    "avatar": "http://www.gdgfortaleza.org/io15/img/bigheads/gdg.png",
-    "desciption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    "avatar": "images/elias.png",
+    "desciption": "Front end Developer & Designer"
   }, {
     "start": "10:00",
     "ends": "11:00",
-    "author": "Wilmerson",
-    "social": "http://www.google.com.br",
-    "title": "Firebase: sobreviva sem backend",
-    "avatar": "http://www.gdgfortaleza.org/io15/img/bigheads/gdg.png",
-    "desciption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    "author": "Felipe Sousa",
+    "social": "https://twitter.com/felipz_sousa",
+    "title": "Introdução a Angular 2",
+    "avatar": "images/felipe.jpg",
+    "desciption": "Front end Developer - Pipoca Digital"
   }, {
     "start": "10:00",
     "ends": "11:00",
     "author": "Vitor Alencar",
-    "social": "http://www.google.com.br",
-    "title": "Ecmascript 6",
-    "avatar": "http://www.gdgfortaleza.org/io15/img/bigheads/gdg.png",
-    "desciption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    "social": "https://twitter.com/vitormalencar",
+    "title": "introdução a Ecmascript 6",
+    "avatar": "images/vitor.jpg",
+    "desciption": "Front end Engineer"
   }, {
     "start": "12:00",
     "ends": "11:00",
     "author": "",
-    "social": "http://www.google.com.br",
+    "social": "",
     "title": "ALMOÇO",
-    "avatar": "",
+    "avatar": "http://www.gdgfortaleza.org/io15/img/bigheads/gdg.png",
     "desciption": ""
   }, {
     "start": "13:00",
     "ends": "15:00",
-    "author": "Sundar Pichai (CEO da Google)",
-    "social": "http://www.google.com.br",
+    "author": "Sundar Pichai",
+    "social": "",
     "title": "KEYNOTE",
     "avatar": "http://www.gdgfortaleza.org/io15/img/bigheads/gdg.png",
-    "desciption": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    "desciption": "CEO da Google"
   }, {
     "start": "15:00",
     "ends": "15:30",
     "author": "",
     "social": "",
     "title": "COFFEE-BREAK",
-    "avatar": "",
+    "avatar": "http://www.gdgfortaleza.org/io15/img/bigheads/gdg.png",
     "desciption": ""
   }, {
     "start": "15:30",
@@ -83,7 +70,7 @@
     "author": "",
     "social": "",
     "title": "MESA REDONDA",
-    "avatar": "",
+    "avatar": "http://www.gdgfortaleza.org/io15/img/bigheads/gdg.png",
     "desciption": ""
   }, {
     "start": "16:30",
@@ -91,21 +78,17 @@
     "author": "",
     "social": "",
     "title": "SORTEIOS E BRINDES",
-    "avatar": "",
+    "avatar": "http://www.gdgfortaleza.org/io15/img/bigheads/gdg.png",
     "desciption": ""
   }],
   "posts": [{}],
   "sponsors": [{
-    "logo": "http://www.gdgfortaleza.org/img/GDG-fortaleza.png",
-    "name": "GDG Fortaleza",
-    "site": "http://developers.google.com"
+    "logo": "images/banner_01.jpg",
+    "name": "FB Ideias",
+    "site": "https://www.facebook.com/FB-Ideias-1507991996114597/?fref=ts"
   }, {
-    "logo": "http://www.gdgfortaleza.org/img/GDG-fortaleza.png",
-    "name": "GDG Fortaleza",
-    "site": "http://developers.google.com"
-  }, {
-    "logo": "http://www.gdgfortaleza.org/img/GDG-fortaleza.png",
-    "name": "GDG Fortaleza",
+    "logo": "images/banner_02.jpg",
+    "name": "Deu Certim",
     "site": "http://developers.google.com"
   }]
 }

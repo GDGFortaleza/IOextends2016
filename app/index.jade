@@ -87,20 +87,11 @@ block content
 					br
 					
 			.row
-				.col-sm-4
+				.col-sm-4.col-sm-offset-4
 					.card
 						a(href='#{organization.site}', target='_blank')
 						img.img-responsive.friend-logo(src='#{organization.logo}', alt='Google Developers')
-				.col-sm-4
-					.card
-						a(href='#{organization.site}', target='_blank')
-						img.img-responsive.friend-logo(src='#{organization.logo}', alt='Google Developers')
-						
-				.col-sm-4
-					.card
-						a(href='#{organization.site}', target='_blank')
-						img.img-responsive.friend-logo(src='#{organization.logo}', alt='Google Developers')
-
+				
 
 	section#sponsors
 		.container
@@ -111,12 +102,7 @@ block content
 					
 			.row
 			each sponsor in sponsors
-				.col-sm-4
-					.card
-						a(href='#{sponsor.site}', target='_blank')
-						img.img-responsive.friend-logo(src='#{sponsor.logo}', alt='Google Developers')
-			each sponsor in sponsors
-				.col-sm-4
+				.col-sm-6
 					.card
 						a(href='#{sponsor.site}', target='_blank')
 						img.img-responsive.friend-logo(src='#{sponsor.logo}', alt='Google Developers')
